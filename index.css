@@ -1,0 +1,172 @@
+nav {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    position:sticky;
+    top: 0;
+    justify-content: space-evenly;
+    width: 90;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    z-index: 100;
+}
+nav > div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav > div:first-child {
+    flex-grow: 1;
+    justify-content: center;
+    display: flex;
+    
+}
+
+nav > div:last-child {
+    flex-grow: 2;
+ 
+    align-items: center;
+}
+nav > div:last-child > * {
+    flex-grow: 1;
+    display: flex;
+}
+
+nav > div:nth-child(2) {
+    flex-grow: 3;
+}
+nav > div:nth-child(2) > * {
+    width: 100%;
+}
+nav > div > div > img {
+    width: 125px;
+}
+body > nav > div:nth-child(3) > div {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+    #fruits_div{
+        
+        display: flex;
+        gap: 10px;
+    }
+
+    #card:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        width: 20%;
+        margin: auto;
+    }
+
+
+
+
+@media all and (min-width:100px) and (max-width:700px) {
+    nav {
+        display: none;
+    }nav {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        display: flex;
+        position:sticky;
+        top: 0;
+        justify-content: space-evenly;
+        width: 90;
+        box-sizing: border-box;
+        padding: 20px 10px;
+        z-index: 100;
+    }
+    nav > div {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    nav > div:first-child {
+        flex-grow: 1;
+        justify-content: center;
+        display: flex;
+        /* border: 1px solid red; */
+    }
+    /* nav > div:first-child > * {
+        border: 1px solid teal;
+        
+    } */
+    nav > div:last-child {
+        flex-grow: 2;
+        /* justify-content: space-evenly; */
+        align-items: center;
+    }
+    nav > div:last-child > * {
+        flex-grow: 1;
+        display: flex;
+    }
+    
+    nav > div:nth-child(2) {
+        flex-grow: 3;
+    }
+    nav > div:nth-child(2) > * {
+        width: 100%;
+    }
+    nav > div > div > img {
+        width: 125px;
+    }
+    body > nav > div:nth-child(3) > div {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    
+    body > nav > div:nth-child(3) > div:hover > * {
+        color: black !important;
+    }
+    
+    body > nav > div:nth-child(3) > div {
+        
+        cursor: pointer;
+    }
+    
+    @media all and (min-width:100px) and (max-width:700px) {
+        nav {
+            display: none;
+        }
+    }
+    #caraCarousel > ol > li {
+        color: black;
+        background-color: #abe1cf;
+        border-radius: 50%;
+        width: 7px;
+        height: 7px;
+       
+    }
+    
+    #caraCarousel > ol > li.active {
+        background-color: #27ba89;
+    }
+    
+    @media all and (min-width:320px) and (max-width:480px) {
+        #cara{
+            padding-right: 0.5rem!important;
+            padding-left: 0.5rem!important;
+        }
+    }
+    
+    @media all and (min-width:481px) and (max-width:768px) {
+        #cara{
+            /* padding-right: 0.5rem!important;
+            padding-left: 0.5rem!important; */
+            margin-right: 1rem!important;
+            margin-left: 1rem!important;
+        }
+    }
+    
+    @media all and (min-width:769px) {
+        #cara{
+            padding-right: 0.5rem!important;
+            padding-left: 0.5rem!important;
+            margin-right: 3rem!important;
+            margin-left: 3rem!important;
+        }
+    }
